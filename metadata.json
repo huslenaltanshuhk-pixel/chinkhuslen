@@ -1,0 +1,6 @@
+{
+  "name": "Lithos - Interactive Geology Hero",
+  "description": "A dark-themed full-screen geology hero section featuring a cursor-following spotlight that reveals an underlying layers image.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
