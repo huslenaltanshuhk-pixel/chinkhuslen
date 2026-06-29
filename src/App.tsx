@@ -11,6 +11,8 @@ import { GTAMiniGame } from './components/GTAMiniGame';
 import { MySongsMenu } from './components/MySongsMenu';
 import { MyPhotosMenu } from './components/MyPhotosMenu';
 import { GooseGooseDuck } from './components/GooseGooseDuck';
+import { MyIdolChat } from './components/MyIdolChat';
+import { MeAIChat } from './components/MeAIChat';
 import { motion, AnimatePresence } from 'motion/react';
 
 const BG_IMAGE_1 = "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85";
@@ -78,7 +80,7 @@ export default function App() {
     };
   }, []);
 
-  const menuItems = ['My Games', 'My Songs', 'My Photos', 'Contact Me', 'About Me', 'My Story'];
+  const menuItems = ['My Games', 'My Songs', 'My Photos', '🤖 My Idol', 'Contact Me', 'About Me', 'My Story'];
 
   return (
     <div 
@@ -259,6 +261,7 @@ export default function App() {
                 {activeTab === 'My Games' && <Gamepad2 className="text-[#e8702a]" size={18} />}
                 {activeTab === 'My Songs' && <Music className="text-[#e8702a]" size={18} />}
                 {activeTab === 'My Photos' && <Image className="text-[#e8702a]" size={18} />}
+                {activeTab === '🤖 My Idol' && <Trophy className="text-[#e8702a]" size={18} />}
                 {activeTab === 'Contact Me' && <Mail className="text-[#e8702a]" size={18} />}
                 {activeTab === 'About Me' && <User className="text-[#e8702a]" size={18} />}
                 {activeTab === 'My Story' && <BookOpen className="text-[#e8702a]" size={18} />}
@@ -266,6 +269,7 @@ export default function App() {
                   {activeTab === 'My Games' && 'Миний Тоглоомууд'}
                   {activeTab === 'My Songs' && 'Миний Дуунууд'}
                   {activeTab === 'My Photos' && 'Миний Зургууд'}
+                  {activeTab === '🤖 My Idol' && '🤖 My Idol'}
                   {activeTab === 'Contact Me' && 'Холбоо Барих'}
                   {activeTab === 'About Me' && 'Миний Тухай'}
                   {activeTab === 'My Story' && 'Миний Түүх'}
@@ -343,6 +347,10 @@ export default function App() {
 
             {activeTab === 'My Photos' && (
               <MyPhotosMenu />
+            )}
+
+            {activeTab === '🤖 My Idol' && (
+              <MyIdolChat />
             )}
 
             {activeTab === 'Contact Me' && (
@@ -684,6 +692,9 @@ export default function App() {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Messenger-style popup chatbot */}
+        <MeAIChat />
       </section>
     </div>
   );
