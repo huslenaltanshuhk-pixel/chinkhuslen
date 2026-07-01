@@ -5,7 +5,7 @@
     "answer": "One Piece",
     "options": ["One Piece", "Naruto", "Bleach", "Dragon Ball"],
     "image": "https://dw9to29mmj727.cloudfront.net/promo/2016/5265-SeriesHeaders_OP_2000x800_wm.jpg",
-    "video": "https://www.youtube.com/watch?v=1q0VLPVijxA&list=RD1q0VLPVijxA&start_radio=1"
+    "video": "https://www.youtube.com/embed/1q0VLPVijxA?si=pXkM4oAzQrTLNGfA"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "answer": "Naruto",
     "options": ["Naruto", "Attack on Titan", "My Hero Academia", "Fullmetal Alchemist"],
     "image": "https://m.media-amazon.com/images/I/810Xo+d8xlL._SY425_.jpg",
-    "video": "https://www.youtube.com/watch?v=0qP9jkdRsYU&list=RD0qP9jkdRsYU&start_radio=1"
+    "video": "https://www.youtube.com/embed/0qP9jkdRsYU?si=tZwTS_YLKd2McpS-"
   },
   {
     "id": 3,
@@ -21,31 +21,31 @@
     "answer": "Demon Slayer",
     "options": ["Demon Slayer", "Jujutsu Kaisen", "Bleach", "Chainsaw Man"],
     "image": "https://m.media-amazon.com/images/I/61IarTdNHsL._AC_.jpg",
-    "video": "https://www.youtube.com/watch?v=pmanD_s7G3U&list=RDpmanD_s7G3U&start_radio=1"
+    "video": "https://www.youtube.com/embed/pmanD_s7G3U?si=v8JlwBvhTxYZlFC3"
   },
   {
     "id": 4,
     "emojis": "🧱🧎‍♂️🦒",
     "answer": "Attack on Titan",
     "options": ["Attack on Titan", "Hunter X Hunter", "Death Note", "Haikyuu!!"],
-    "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&q=80",
-    "video": "https://www.youtube.com/embed/MGRm4IzK1SQ"
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg",
+    "video": "https://www.youtube.com/embed/WAoPeG1LU1g?si=4o9deBuD9-CMmqQP"
   },
   {
     "id": 5,
     "emojis": "📓🍎💀",
     "answer": "Death Note",
     "options": ["Death Note", "One Punch Man", "Dandadan", "Jujutsu Kaisen"],
-    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&q=80",
-    "video": "https://www.youtube.com/embed/NlJZ-YgAt-c"
+    "image": "https://hypercritic.org/wp-content/uploads/2023/12/50102874-e1702320177779.jpg",
+    "video": "https://www.youtube.com/embed/Bt3D3Ca9nww?si=p_IfwftnhyppCtXz"
   },
   {
     "id": 6,
     "emojis": "🦸‍♂️🏫💥",
     "answer": "My Hero Academia",
     "options": ["My Hero Academia", "Dragon Ball", "Bleach", "Naruto"],
-    "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
-    "video": "https://www.youtube.com/embed/D5fYOnwYkj4"
+    "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*W2heFUeeOS_5lWZDBe7hpA.jpeg",
+    "video": "https://www.youtube.com/embed/JVu7-XSI_OM?si=7iK8R7RVcoIiGX7D"
   },
   {
     "id": 7,
