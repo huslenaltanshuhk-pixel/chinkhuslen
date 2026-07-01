@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "emojis": "🏴‍☠️🍖👒",
+    "answer": "One Piece",
+    "options": ["One Piece", "Naruto", "Bleach", "Dragon Ball"],
+    "image": "https://dw9to29mmj727.cloudfront.net/promo/2016/5265-SeriesHeaders_OP_2000x800_wm.jpg",
+    "video": "https://www.youtube.com/watch?v=1q0VLPVijxA&list=RD1q0VLPVijxA&start_radio=1"
+  },
+  {
+    "id": 2,
+    "emojis": "🦊🍜🍥",
+    "answer": "Naruto",
+    "options": ["Naruto", "Attack on Titan", "My Hero Academia", "Fullmetal Alchemist"],
+    "image": "https://m.media-amazon.com/images/I/810Xo+d8xlL._SY425_.jpg",
+    "video": "https://www.youtube.com/watch?v=0qP9jkdRsYU&list=RD0qP9jkdRsYU&start_radio=1"
+  },
+  {
+    "id": 3,
+    "emojis": "🎴⚔️👹",
+    "answer": "Demon Slayer",
+    "options": ["Demon Slayer", "Jujutsu Kaisen", "Bleach", "Chainsaw Man"],
+    "image": "https://m.media-amazon.com/images/I/61IarTdNHsL._AC_.jpg",
+    "video": "https://www.youtube.com/watch?v=pmanD_s7G3U&list=RDpmanD_s7G3U&start_radio=1"
+  },
+  {
+    "id": 4,
+    "emojis": "🧱🧎‍♂️🦒",
+    "answer": "Attack on Titan",
+    "options": ["Attack on Titan", "Hunter X Hunter", "Death Note", "Haikyuu!!"],
+    "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&q=80",
+    "video": "https://www.youtube.com/embed/MGRm4IzK1SQ"
+  },
+  {
+    "id": 5,
+    "emojis": "📓🍎💀",
+    "answer": "Death Note",
+    "options": ["Death Note", "One Punch Man", "Dandadan", "Jujutsu Kaisen"],
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&q=80",
+    "video": "https://www.youtube.com/embed/NlJZ-YgAt-c"
+  },
+  {
+    "id": 6,
+    "emojis": "🦸‍♂️🏫💥",
+    "answer": "My Hero Academia",
+    "options": ["My Hero Academia", "Dragon Ball", "Bleach", "Naruto"],
+    "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+    "video": "https://www.youtube.com/embed/D5fYOnwYkj4"
+  },
+  {
+    "id": 7,
+    "emojis": "🤞🕶️🩸",
+    "answer": "Jujutsu Kaisen",
+    "options": ["Jujutsu Kaisen", "Chainsaw Man", "Dandadan", "Demon Slayer"],
+    "image": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=600&q=80",
+    "video": "https://www.youtube.com/embed/pm817U9D67o"
+  },
+  {
+    "id": 8,
+    "emojis": "🪚🐶🦾",
+    "answer": "Chainsaw Man",
+    "options": ["Chainsaw Man", "Fullmetal Alchemist", "One Piece", "Naruto"],
+    "image": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=600&q=80",
+    "video": "https://www.youtube.com/embed/l96ZgYByAzo"
+  },
+  {
+    "id": 9,
+    "emojis": "🐉☄️🥋",
+    "answer": "Dragon Ball",
+    "options": ["Dragon Ball", "One Piece", "Bleach", "Attack on Titan"],
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&q=80",
+    "video": "https://www.youtube.com/embed/2_8r6L-XoF4"
+  },
+  {
+    "id": 10,
+    "emojis": "🦾🦿🧑‍🔬",
+    "answer": "Fullmetal Alchemist",
+    "options": ["Fullmetal Alchemist", "Death Note", "Hunter X Hunter", "My Hero Academia"],
+    "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&q=80",
+    "video": "https://www.youtube.com/embed/UO5S7869u28"
+  },
+  {
+    "id": 11,
+    "emojis": "🎣👁️🔋",
+    "answer": "Hunter X Hunter",
+    "options": ["Hunter X Hunter", "Dragon Ball", "Jujutsu Kaisen", "One Punch Man"],
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&q=80",
+    "video": "https://www.youtube.com/embed/d6kBeJjQF08"
+  },
+  {
+    "id": 12,
+    "emojis": "⚔️🍓💀",
+    "answer": "Bleach",
+    "options": ["Bleach", "One Piece", "Naruto", "Demon Slayer"],
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&q=80",
+    "video": "https://www.youtube.com/embed/e8Y_M9C_Z0o"
+  },
+  {
+    "id": 13,
+    "emojis": "🏐👟🏫",
+    "answer": "Haikyuu!!",
+    "options": ["Haikyuu!!", "Kuroko's Basketball", "Blue Lock", "Free!"],
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+    "video": "https://www.youtube.com/embed/q4I6r49rGjA"
+  },
+  {
+    "id": 14,
+    "emojis": "🦲🥊🦸‍♂️",
+    "answer": "One Punch Man",
+    "options": ["One Punch Man", "My Hero Academia", "Dragon Ball", "Mob Psycho 100"],
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
+    "video": "https://www.youtube.com/embed/2JAEl3LDYkI"
+  },
+  {
+    "id": 15,
+    "emojis": "👽👻👵",
+    "answer": "Dandadan",
+    "options": ["Dandadan", "Chainsaw Man", "Jujutsu Kaisen", "Bleach"],
+    "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&q=80",
+    "video": "https://www.youtube.com/embed/6_Z_vsc38-8"
+  }
+]

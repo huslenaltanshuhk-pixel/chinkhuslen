@@ -13,6 +13,7 @@ import { MyPhotosMenu } from './components/MyPhotosMenu';
 import { GooseGooseDuck } from './components/GooseGooseDuck';
 import { MyIdolChat } from './components/MyIdolChat';
 import { MeAIChat } from './components/MeAIChat';
+import { AnimeGuesser } from './components/AnimeGuesser';
 import { motion, AnimatePresence } from 'motion/react';
 
 const BG_IMAGE_1 = "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85";
@@ -33,6 +34,7 @@ export default function App() {
   const [showCS2Game, setShowCS2Game] = useState(false);
   const [showGTAGame, setShowGTAGame] = useState(false);
   const [showGooseGame, setShowGooseGame] = useState(false);
+  const [showAnimeGame, setShowAnimeGame] = useState(false);
 
   const mouseRef = useRef({ x: -999, y: -999 });
   const smoothRef = useRef({ x: -999, y: -999 });
@@ -321,6 +323,19 @@ export default function App() {
                     <span className="text-[9px] bg-emerald-500 text-slate-950 px-2 py-0.5 rounded-full font-mono font-bold animate-pulse">ТОГЛОХ</span>
                   </div>
                   <p className="text-[11px] text-white/80 mt-1">Багийн гишүүн болж даалгавар биелүүлэх эсвэл хорлон сүйтгэгчээр бусдыг устгах хөгжөөнт тоглоом!</p>
+                </div>
+
+                <div 
+                  onClick={() => setShowAnimeGame(true)}
+                  className="p-3 bg-gradient-to-r from-rose-500/10 to-pink-500/10 hover:from-rose-500/15 hover:to-pink-500/15 rounded-xl border border-rose-500/25 hover:border-rose-500/50 transition-all duration-300 hover:-translate-y-0.5 group cursor-pointer"
+                >
+                  <div className="flex justify-between items-center">
+                    <h3 className="font-bold text-xs text-white group-hover:text-rose-400 transition-colors flex items-center gap-1.5 font-semibold">
+                      🔥 Anime Emoji Guesser (Аниме таавар)
+                    </h3>
+                    <span className="text-[9px] bg-rose-500 text-slate-950 px-2 py-0.5 rounded-full font-mono font-bold animate-pulse">ТОГЛОХ</span>
+                  </div>
+                  <p className="text-[11px] text-white/80 mt-1">Анимений сэдэвтэй эможинуудыг зөв тааж, хамгийн өндөр оноог цуглуулах хөгжөөнт тоглоом!</p>
                 </div>
 
                 <div className="p-3 bg-white/5 hover:bg-white/10 rounded-xl border border-white/5 transition-all duration-300 hover:-translate-y-0.5 group cursor-pointer">
@@ -688,6 +703,28 @@ export default function App() {
                 className="w-full max-w-2xl"
               >
                 <GooseGooseDuck onClose={() => setShowGooseGame(false)} />
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Anime Emoji Guesser Modal Overlay */}
+        <AnimatePresence>
+          {showAnimeGame && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 bg-black/85 backdrop-blur-md z-[200] flex items-center justify-center p-4 overflow-y-auto"
+            >
+              <motion.div
+                initial={{ scale: 0.95, y: 20 }}
+                animate={{ scale: 1, y: 0 }}
+                exit={{ scale: 0.95, y: 20 }}
+                transition={{ type: "spring", damping: 25, stiffness: 300 }}
+                className="w-full max-w-xl"
+              >
+                <AnimeGuesser onClose={() => setShowAnimeGame(false)} />
               </motion.div>
             </motion.div>
           )}
